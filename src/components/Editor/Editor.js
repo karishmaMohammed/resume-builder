@@ -564,7 +564,7 @@ function Editor(props) {
       summary: typeof activeInfo?.detail !== "object" ? activeInfo.detail : "",
       other: typeof activeInfo?.detail !== "object" ? activeInfo.detail : "",
     });
-  }, [activeSectionKey]);
+  }, [activeSectionKey, information, sections]);
 
   useEffect(() => {
     setActiveInformation(information[sections[activeSectionKey]]);
