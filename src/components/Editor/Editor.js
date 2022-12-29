@@ -568,7 +568,7 @@ function Editor(props) {
 
   useEffect(() => {
     setActiveInformation(information[sections[activeSectionKey]]);
-  }, [information]);
+  }, [information, activeSectionKey, sections]);
 
   useEffect(() => {
     const details = activeInformation?.details;
