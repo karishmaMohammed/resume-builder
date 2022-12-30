@@ -293,12 +293,12 @@ const Resume = forwardRef((props, ref) => {
     ]);
   }, [sections.project, sections.education, sections.summary, sections.workExp, sections.achievement, sections.other]);
 
- /* useEffect(() => {
+ useEffect(() => {
     swapSourceTarget(source, target);
-  }, [source, target, swapSourceTarget]);*/
-  console.log(source);
+  }, [source, target, swapSourceTarget]);
+ /* console.log(source);
   console.log(target);
-  console.log(swapSourceTarget);
+  console.log(swapSourceTarget);*/
 
   useEffect(() => {
     const container = containerRef.current;
