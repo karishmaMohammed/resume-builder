@@ -1,7 +1,5 @@
 import React from "react";
-
 import resumeSvg from "../../assets/resume.svg";
-
 import styles from "./Header.module.css";
 
 function Header() {
@@ -9,10 +7,10 @@ function Header() {
     <div className={styles.container}>
       <div className={styles.left}>
         <p className={styles.heading}>
-          A <span>Resume</span> that stands out!
+          A <span>Resume</span> that make you stands out!
         </p>
         <p className={styles.heading}>
-          Make your own resume. <span>It's free</span>
+          Make your own resume.
         </p>
       </div>
       <div className={styles.right}>

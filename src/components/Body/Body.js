@@ -1,10 +1,8 @@
 import React, { useRef, useState } from "react";
 import ReactToPrint from "react-to-print";
 import { ArrowDown } from "react-feather";
-
 import Editor from "../Editor/Editor";
 import Resume from "../Resume/Resume";
-
 import styles from "./Body.module.css";
 
 function Body() {
@@ -61,7 +59,7 @@ function Body() {
 
   return (
     <div className={styles.container}>
-      <p className={styles.heading}>Resume Builder</p>
+      <p className={styles.heading} style={{color:'#000', fontSize: '4em'}}>Resume Builder</p>
       <div className={styles.toolbar}>
         <div className={styles.colors}>
           {colors.map((item) => (
